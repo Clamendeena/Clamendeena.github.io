@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="assets/Logo__00.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+.heading-container {
+    display: flex;
+    width: 88%;
+    align-items: center;
+    height: 14vh;
+    border: 4px solid #fffefe;
+    margin-left: 138px; /* Adjust the margin to add space before the border starts */
+    padding: 1px;
+    margin-top: 34px;
+    box-sizing: border-box;
+    
+}
+.heading2-container {
+    display: flex;
+    width: 88%;
+    align-items: center;
+    height: 14vh;
+    margin-left: 138px; 
+    font-size: 27px;
+    margin-top: 30px;
+    line-height: 53px;
+    
+}
+.heading3-container {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    height: 14vh;
+    margin-left: 138px; 
+    font-size: 27px;
+    margin-top: 30px;
+    line-height: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+.heading-text {
+    margin-left: 20px;
+    font-size: 60px;
+}
+.arrow2 {
+    position: absolute;
+    padding-left: 918px;
+}
+
+#projects1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 500px;
+}
+
+.projects-title {
+    text-align: left;
+    font-size: 18px;
+    padding-left: 130px;
+    padding-top: 40px;
+    color: #DEFF05;
+    width: calc(100% - 500px); /* Adjusted width to match the available space */
+}
+.buttonpro {
+    background-color: #DEFF05;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    width: 35%;
+    text-decoration: none;
+    display: inline-block;
+    border:0.5px solid #DEFF05;
+}
+
+.buttonpro:hover .arrow {
+    transform: rotate(-40deg);
+}
+
+.buttonpro:hover {
+    color: #DEFF05;
+    background-color: #000000;
+    border:0.5px solid #DEFF05; /* Change the text color on hover */
+}
+.arrow {
+    transition: transform 0.3s ease-in-out;
+    position: absolute;
+    top: 18%; /* Center the arrow vertically */
+    right: 7px;
+}
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.project {
+    flex: 1 0 calc(50% - 20px);
+    max-width: 400px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.project-description {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+#work1-container{
+    position: absolute;
+    left: 20px;
+    top: 500px;
+    padding: 21px;
+    overflow: hidden;
+    padding-left: 121px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: #DEFF05;
+}
+#back-conatiner{
+    position: absolute;
+    left: 20px;
+    top: 1470px;
+    padding: 9px;
+    overflow: hidden;
+    padding-left: 121px;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+@media only screen and (max-width: 780px) {
+.heading-container {
+    display: flex;
+    width: 84%;
+    align-items: center;
+    height: 10vh;
+    border: 4px solid #fffefe;
+    margin-left: 138px; /* Adjust the margin to add space before the border starts */
+    padding: 1px;
+    margin-top: 34px;
+    box-sizing: border-box;
+    
+}
+.heading2-container {
+    display: flex;
+    width: 88%;
+    align-items: center;
+    height: 13vh;
+    margin-left: 138px; 
+    font-size: 16px;
+    margin-top: 30px;
+    line-height: 27px;
+    
+}
+.heading3-container {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    height: 14vh;
+    margin-left: 138px; 
+    font-size: 16px;
+    margin-top: 30px;
+    line-height: 23px;
+    font-family: 'Poppins', sans-serif;
+}
+.heading-text {
+    margin-left: 20px;
+    font-size: 40px;
+}
+.arrow2 {
+    position: absolute;
+    padding-left: 344.3px;
+}
+
+#projects1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 109px;
+}
+
+.projects-title {
+    text-align: left;
+    font-size: 18px;
+    padding-left: 130px;
+    padding-top: 40px;
+    color: #DEFF05;
+    width: calc(100% - 500px); /* Adjusted width to match the available space */
+}
+.buttonpro {
+    background-color: #DEFF05;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    width: 95%;
+    text-decoration: none;
+    display: inline-block;
+    border:0.5px solid #DEFF05;
+}
+
+.buttonpro:hover .arrow {
+    transform: rotate(-40deg);
+}
+
+.buttonpro:hover {
+    color: #DEFF05;
+    background-color: #000000;
+    border:0.5px solid #DEFF05; /* Change the text color on hover */
+}
+.arrow {
+    transition: transform 0.3s ease-in-out;
+    position: absolute;
+    top: 18%; /* Center the arrow vertically */
+    right: 7px;
+}
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.project {
+    flex: 1 0 calc(50% - 20px);
+    max-width: 600px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.project-description {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+#work1-container{
+    position: absolute;
+    left: 20px;
+    top: 450px;
+    padding: 21px;
+    overflow: hidden;
+    padding-left: 121px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: #DEFF05;
+}
+#back-conatiner{
+    position: absolute;
+    left: 20px;
+    top: 2530px;
+    padding: 9px;
+    overflow: hidden;
+    padding-left: 121px;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+}}
+
+
+@media only screen and (max-width: 500px) {
+    .heading-container {
+    display: flex;
+    width: 98%;
+    align-items: center;
+    height: 7vh;
+    border: 4px solid #fffefe;
+    margin-left: 48px; /* Adjust the margin to add space before the border starts */
+    padding: 1px;
+    margin-top: 54px;
+    box-sizing: border-box;
+}
+.heading2-container {
+    display: flex;
+    width: 83%;
+    align-items: center;
+    height: 9vh;
+    margin-left: 48px; 
+    font-size: 16px;
+    color: #656565;
+    margin-top: 37px;
+    line-height: 20px;
+}
+  
+    .heading-text {
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    .heading3-container {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    height: 14vh;
+    margin-left: 48px; 
+    font-size: 16px;
+    margin-top: 30px;
+    line-height: 23px;
+    font-family: 'Poppins', sans-serif;
+}
+.arrow2 {
+    position: absolute;
+    padding-left: 286px;
+}
+
+#projects1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 109px;
+}
+
+.projects-title {
+    text-align: left;
+    font-size: 18px;
+    padding-left: 130px;
+    padding-top: 40px;
+    color: #DEFF05;
+    width: calc(100% - 500px); /* Adjusted width to match the available space */
+}
+.buttonpro {
+    background-color: #DEFF05;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    width: 95%;
+    text-decoration: none;
+    display: inline-block;
+    border:0.5px solid #DEFF05;
+}
+
+.buttonpro:hover .arrow {
+    transform: rotate(-40deg);
+}
+
+.buttonpro:hover {
+    color: #DEFF05;
+    background-color: #000000;
+    border:0.5px solid #DEFF05; /* Change the text color on hover */
+}
+.arrow {
+    transition: transform 0.3s ease-in-out;
+    position: absolute;
+    top: 18%; /* Center the arrow vertically */
+    right: 7px;
+}
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.project {
+    flex: 1 0 calc(50% - 20px);
+    max-width: 600px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.project-description {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+#work1-container{
+    position: absolute;
+    top: 390px;
+    padding: 2px;
+    overflow: hidden;
+    padding-left: 28px;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    color: #DEFF05;
+}
+#back-conatiner{
+    position: absolute;
+    top: 2010px;
+    padding: 9px;
+    overflow: hidden;
+    padding-left: 41px;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+}
+</style>
+    <title>Clamendeena's Portfolio</title>
+</head>
+<body>
+    <div id="social-icons">
+        <a href="https://mail.google.com/mail/u/0/?fs=1&to=gabrieljackangel@gmail.com&tf=cm" target="_blank"><i class="far fa-envelope"></i></a>
+        <a href="https://github.com/Clamendeena" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/clamendeena-s/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.salesforce.com/trailblazer/clamendeena08" target="_blank"><i class="fas fa-cloud"></i></a>
+    </div>
+    <div id="name-container">
+        <a href="index.html" style="text-decoration: none;  font-weight: bold;">
+            <div id="name" class="visible">🠘 Home</div>
+        </a>
+    </div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="All files/about_me.html">About</a></li>
+                <li><a href="All files/stack.html">Stack</a></li>
+                <li><a href="projects.html" style="color: #DEFF05;">Projects</a></li>
+                <li><a href="All files/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>       
+    <div class="heading-container">
+       
+        <h1 class="heading-text">My Works <span class="arrow2" style="color: #DEFF05;">↙</span></h1>
+    </div>
+    <div class="heading2-container">
+        <h2>Crafting web experiences with a trail of impressive projects that bring ideas to life. Explore my digital playground!</h2>
+    </div>
+    <div class="heading3-container">
+        <p>I specialize in designing web development projects that are both functional and visually appealing. Explore my work to see how I bring ideas to life on the web!!!</p>
+    </div>
+    <div id="work1-container">
+        <h2>Featured Work</h2>
+    </div><br><br><br>
+    <section id="projects1">
+        
+        <div class="projects-container">
+            <!-- Project 1 -->
+            <div class="project">
+                <img src="assets/project1 (1).png" alt="Project 1"><h3 style="font-family: 'Poppins', sans-serif;">CuisineChronicle Web App</h3>
+                <p class="project-description">Visually stunning and interactive web application that redefines the art of culinary exploration</p><br>
+                <a href="All files/Project1.html" class="buttonpro">
+                    <span class="text">View Project</span><span class="arrow">➜</span>
+                </a>
+            </div>
+    
+            <!-- Project 2 -->
+            <div class="project">
+                <img src="assets/project2.png" alt="Project 2">
+                <h3 style="font-family: 'Poppins', sans-serif;">BudgetBuddy Web App</h3>
+                <p class="project-description">Web application designed to be your ultimate companion in managing your personal finances</p>
+                <br>
+                <a href="All files/Project2.html" class="buttonpro">
+                    <span class="text">View Project</span><span class="arrow">➜</span>
+                </a>
+            </div>
+    
+            <!-- Project 3 -->
+            <div class="project">
+                <img src="assets/project3 (1).png" alt="Project 3">
+                <h3 style="font-family: 'Poppins', sans-serif;">CountMaster Web App</h3>
+                <p class="project-description">Web application designed to calculate the total number of words and letters in a text document</p>
+                <br>
+                <a href="All files/Project3.html" class="buttonpro">
+                    <span class="text">View Project</span><span class="arrow">➜</span>
+                </a>
+            </div>
+    
+            <!-- Project 4 -->
+            <div class="project">
+                <img src="assets/Project4 (1).png" alt="Project 4">
+                <h3 style="font-family: 'Poppins', sans-serif;"">Text-to-Speech Web App</h3>
+                <p class="project-description">Web application designed to harness the capabilities of the Web Speech API with interactive user experience</p>
+                <br>
+                <a href="All files/Project4.html" class="buttonpro">
+                    <span class="text">View Project</span><span class="arrow">➜</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <div id="back-conatiner">
+         <a href="#" onclick="history.go(-1)" style="text-decoration: none; color: #DEFF05; font-weight: bold;">
+            <h2 style="margin: 0; display: inline;">🡰 Back</h2>
+        </a>
+    </div><br><br><br><br><br><br>
+    <footer>
+        <p>&copy; 2023 Clamendeena S. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
